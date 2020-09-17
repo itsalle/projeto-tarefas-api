@@ -5,8 +5,6 @@ const app = express()
 const index = require("./routes/index")
 const tarefas = require("./routes/tarefasRoute")
 
-app.use(express.json());
-
 app.use(function (req, res, next) {
   // Definindo permissão de acesso, o * libera acesso a qualquer site
   res.header("Access-Control-Allow-Origin", "*")

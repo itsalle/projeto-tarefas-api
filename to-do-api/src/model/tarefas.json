@@ -2,7 +2,7 @@
   {
     "id": 1,
     "dataInclusao": "13/09/2020",
-    "concluido": false,
+    "concluido": true,
     "descricao": "Criar minha lista de tarefas",
     "nomeColaboradora": "Paula"
   },
